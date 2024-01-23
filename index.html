@@ -42,8 +42,9 @@
       </script>
   </head>
   <body class="font-manrope">
-    <header class="container mx-auto">
-      <div class="navbar bg-base-100 mt-5">
+    <header class="container mx-auto mb-16">
+      <!-- navbar starts -->
+      <div class="navbar bg-base-100 mt-5 mb-12">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -87,11 +88,49 @@
           </ul>
         </div>
         <div class="navbar-end">
+          <img class="w-8 mr-2.5 hidden lg:inline-block" src="images/search.png" alt="">
         <a class="btn w-36 bg-primary-color text-white font-bold">Get Ticket</a>
         </div>
       </div>
+      <!-- banner section starts -->
+      <section>
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="images/1.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a> 
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="images/hockey2.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a> 
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide3" class="carousel-item relative w-full">
+            <img class="rounded-xl" src="images/hockey3.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">❮</a> 
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+        </div>
+        <div class="block lg:flex lg:justify-end lg:mr-56 lg:-mt-72">
+          <div class="bg-black my-10 lg:w-5/12 rounded-xl px-8 pt-6 z-40">
+            <h2 class="text-2xl text-white font-extrabold pt-5 pb-4">Meet all the heroes from the field</h2>
+            <p class="tex-base text-white font-medium pb-8">Individuals showcasing exceptional skills, dedication, and courage. Discover their inspiring stories and contributions.</p>
+          </div>
+        </div>
+      </section>
     </header>
-    <main>
+    <main class="container mx-auto">
+      <!-- skills section starts -->
+      <section>
+        <h2 class="text-3xl font-extrabold">Professional Hockeys Club</h2>
+        <p class="text-base">Explore the dynamic world of the Professional Hockey Club, where skilled athletes come together, competing passionately and fostering team spirit.</p>
+      </section>
     </main>
     <footer></footer>
   </body>
